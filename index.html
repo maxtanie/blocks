@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+
+	<style>
+        body {
+            font-family: "roboto";
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .bg-black {
+            background-color: #000;
+        }
+
+        .bg-white {
+            background-color: #fff;
+        }
+
+        .white-color {
+            color: #fff;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .blocks {
+            height: 100vh;
+        }
+        
+        .title {
+            font-size: 10em;
+            text-transform: uppercase;
+            line-height: 100vh;
+            text-align: center;
+        }
+
+    </style>
+	<body>
+		<div class="grid">
+			<div class="blocks bg-black">
+                <h2 class="title white-color">Box 1</h2>
+            </div>
+			<div class="blocks bg-white">
+                <h2 class="title">Box 2</h2>
+            </div>
+		</div>
+	</body>
+</html>
